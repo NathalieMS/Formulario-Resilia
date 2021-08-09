@@ -121,3 +121,28 @@ a:hover{
 .icone:active{
     color: white;
 }
+
+@media (max-width: 700px)
+{
+  nav
+   {
+    display: none;
+   }
+
+   .formulario {
+    margin: auto;
+    width: 30em;
+    display:flex;
+border: 1em;
+border-radius: 1em;
+padding: 1em;
+margin-top: 2.5em;
+
+   }
+
+   footer{
+
+    font-size: smaller;
+    
+    }
+}
